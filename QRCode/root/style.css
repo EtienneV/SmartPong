@@ -1,0 +1,146 @@
+.mark {
+	height: 50px;
+	width: 50px;
+
+	background-color: red;
+
+    position: absolute;
+    top: 300px;
+    left: 300px;
+
+    display: none;
+}
+
+.qr_container {
+	width: 100%;
+	text-align: center;
+}
+
+.intro {
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+
+.game_container {
+	width: 100%;
+	text-align: center;
+
+	display: none;
+}
+
+.board {
+	padding: 100px;
+
+	width: 70%;
+	height: 800px;
+
+	margin-left: auto;
+  	margin-right: auto;
+
+	background-color: black;
+}
+
+.left_container {
+	padding: 0;
+	margin: 0;
+
+	width: 20px;
+	height: 100%;
+
+	display: inline-block;
+
+	/*background-color: black;*/
+}
+
+.right_container {
+	padding: 0;
+	margin: 0;
+
+	width: 20px;
+	height: 100%;
+
+	display: inline-block;
+
+	/*background-color: black;*/
+}
+
+.middle_container {
+	padding: 0;
+	margin: 0;
+
+	width: 1000px;
+	height: 100%;
+
+	display: inline-block;
+
+	/*background-color: blue;*/
+}
+
+.right_score {
+	padding: 0;
+	margin: 0;
+
+	height: 100%;
+
+	display: inline-block;
+
+	font-size: 3em;
+	color: white;
+
+	/*background-color: black;*/
+}
+
+.left_score {
+	padding: 0;
+	margin: 0;
+
+	height: 100%;
+
+	display: inline-block;
+
+	font-size: 3em;
+	color: white;
+
+	/*background-color: black;*/
+}
+
+.left_player {
+	padding: 0;
+	margin: 0;
+
+	width: 100%;
+	height: 100px;
+
+	position: relative;
+	top: 0%;
+
+	background-color: white;
+}
+
+.right_player {
+	padding: 0;
+	margin: 0;
+
+	width: 100%;
+	height: 100px;
+
+	position: relative;
+	top: 0%;
+
+	background-color: white;
+}
+
+.ball {
+	padding: 0;
+	margin: 0;
+
+	width: 30px;
+	height: 30px;
+
+	position: relative;
+	top: 0px;
+	left: 0px;
+
+	background-color: white;
+}

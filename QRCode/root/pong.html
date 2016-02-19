@@ -1,0 +1,61 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>QR PeerJS</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+
+  <body ng-controller="Afficheur">
+
+    <div class="qr_container">
+        <br><br><br><br>
+        <h1>Scanner le QR code</h1>
+        <br><br><br><br>
+        <img src="{{data.qr_src}}">
+    </div>
+
+    <div class="intro">
+        <h1>Prêt ?</h1>
+    </div>
+
+    <!--<div class="mark"></div>-->
+
+    <div class="game_container">
+        <br><br><br><br>
+        <div class="board">
+            <div class="left_score">{{data.score(1)}}</div>
+            <div class="left_container">
+                <div class="left_player"></div>
+            </div>
+            <div class="middle_container">
+                <div class="ball"></div>
+            </div>
+            <div class="right_container">
+                <div class="right_player"></div>
+            </div>
+            <div class="right_score">{{data.score(2)}}</div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+      
+    </script>
+  </body>
+</html>
